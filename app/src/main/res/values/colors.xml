@@ -1,0 +1,10 @@
+<resources>
+    <color name="indigo_principal">#FF3949AB</color>
+    <color name="indigo_escuro">#FF1A237E</color>
+    <color name="indigo_fundo">#FFE8EAF6</color>
+    <color name="indigo_noite">#FFBAC3FF</color>
+    <color name="indigo_container_noite">#FF2C3A8C</color>
+    <color name="ambar_claro">#FFFFECB3</color>
+    <color name="ambar_escuro">#FF5D4200</color>
+    <color name="branco">#FFFFFFFF</color>
+</resources>

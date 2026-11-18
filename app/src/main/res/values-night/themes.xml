@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Acervo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/indigo_noite</item>
+        <item name="colorOnPrimary">@color/indigo_escuro</item>
+        <item name="colorPrimaryContainer">@color/indigo_container_noite</item>
+        <item name="colorOnPrimaryContainer">@color/indigo_fundo</item>
+        <item name="colorSecondaryContainer">@color/ambar_escuro</item>
+        <item name="colorOnSecondaryContainer">@color/ambar_claro</item>
+    </style>
+</resources>

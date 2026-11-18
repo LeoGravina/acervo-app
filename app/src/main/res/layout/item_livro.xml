@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margem_padrao">
+
+        <TextView
+            android:id="@+id/txtInicial"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/fundo_inicial"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="D" />
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margem_padrao"
+            android:layout_marginEnd="@dimen/margem_pequena"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/btnExcluir"
+            app:layout_constraintStart_toEndOf="@id/txtInicial"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Dom Casmurro" />
+
+        <TextView
+            android:id="@+id/txtAutorAno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@id/txtTitulo"
+            app:layout_constraintStart_toStartOf="@id/txtTitulo"
+            app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+            tools:text="Machado de Assis · 1899" />
+
+        <TextView
+            android:id="@+id/txtGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_pequena"
+            android:background="@drawable/fundo_etiqueta"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:textColor="?attr/colorOnSecondaryContainer"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/txtTitulo"
+            app:layout_constraintTop_toBottomOf="@id/txtAutorAno"
+            tools:text="Romance" />
+
+        <CheckBox
+            android:id="@+id/chkLido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rotulo_lido"
+            app:layout_constraintBottom_toBottomOf="@id/txtGenero"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtGenero" />
+
+        <ImageButton
+            android:id="@+id/btnExcluir"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descricao_excluir"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_excluir" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

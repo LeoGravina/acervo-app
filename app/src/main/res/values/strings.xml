@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Acervo</string>
+
+    <!-- Tela da lista -->
+    <string name="titulo_lista">Meu acervo</string>
+    <string name="resumo_acervo">Livros: %1$d · Lidos: %2$d</string>
+    <string name="lista_vazia">Nenhum livro cadastrado.\nToque em + para adicionar o primeiro.</string>
+    <string name="descricao_adicionar">Adicionar livro</string>
+
+    <!-- Item da lista -->
+    <string name="autor_ano">%1$s · %2$d</string>
+    <string name="rotulo_lido">Lido</string>
+    <string name="descricao_excluir">Excluir livro</string>
+
+    <!-- Excluir -->
+    <string name="titulo_excluir">Excluir livro?</string>
+    <string name="mensagem_excluir">\"%1$s\" será removido do acervo.</string>
+    <string name="botao_excluir">Excluir</string>
+    <string name="livro_excluido">Livro excluído</string>
+
+    <!-- Formulário -->
+    <string name="titulo_novo">Novo livro</string>
+    <string name="titulo_editar">Editar livro</string>
+    <string name="dica_titulo">Título</string>
+    <string name="dica_autor">Autor</string>
+    <string name="dica_ano">Ano de publicação</string>
+    <string name="dica_genero">Gênero (opcional)</string>
+    <string name="rotulo_ja_li">Já li este livro</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="botao_cancelar">Cancelar</string>
+    <string name="erro_obrigatorio">Campo obrigatório</string>
+    <string name="erro_ano">Informe um ano válido</string>
+    <string name="sem_genero">Sem gênero</string>
+    <string name="livro_salvo">Livro salvo</string>
+</resources>
